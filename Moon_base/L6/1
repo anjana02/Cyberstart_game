@@ -1,0 +1,12 @@
+#
+# Browse the contents of these alien directories found in /tmp/aliendir to find
+# the flag
+#
+#
+import os
+arr = os.listdir('/tmp/aliendir/')
+#print(arr)
+array_length = len(arr)
+for i in range(array_length):
+  ar=os.listdir('/tmp/aliendir/'+arr[i])
+  print(ar)

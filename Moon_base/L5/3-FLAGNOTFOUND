@@ -1,0 +1,20 @@
+# FLAG NOT FOUND
+# Sample Alien Zip file found at /tmp/alien-zip-2092.zip is password protected
+# We have worked out they are using three digit code
+# Brute force the Zip file to extract to /tmp
+#
+# Note: The script can timeout if this occurs try narrowing
+# down your search
+
+from zipfile import ZipFile
+
+zf = ZipFile('/tmp/alien-zip-2092.zip')
+
+for i in range(0,999):
+	try:
+		zf.extract(member='alien-zip-2092.txt', pwd = str(i).encode())
+		print("Password: " + str(i))
+		break
+	except Exception:
+		pass
+

@@ -1,0 +1,19 @@
+#
+# Alien Signal API listening on http://127.0.0.1:8082
+# Use HTTP GET with x-api-key header to get signal
+# We have narrowed down the key to be in the range of 5500 to 5600
+# Note: The script can timeout if this occurs try narrowing
+# down your search
+#
+
+
+import urllib.request, urllib.error, urllib.parse
+y='"flag":""'
+request = urllib.request.Request("http://127.0.0.1:8082")
+for x in range(5500,5550):
+	request.add_header("x-api-key", x)
+	response = urllib.request.urlopen(request)
+	html = response.read()
+	print(html)
+
+
