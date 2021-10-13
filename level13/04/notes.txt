@@ -1,3 +1,0 @@
-Something to do with control char
-
-Unexpected error condition. Control char is %d
