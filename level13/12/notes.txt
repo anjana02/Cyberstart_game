@@ -1,0 +1,17 @@
+Hash'em
+Agent, we've managed to get physical access to a router the gang are using on their ship. We want you to use that access to get the username and password for SSH.
+
+Tip: Send the username and password to our undercover by text to get the flag. The message should be in the format: username / password.
+
+
+This leads me to believe we are supposed to brute force the SSH login.
+
+
+Gateway IP: 97.27.204.0
+IP Address: 99.27.300.194
+
+
+Hardware VersionXGND4007
+Firmware Versionv1_1_2.0_3.1
+GUI Language Versionv1_2_1.0
+

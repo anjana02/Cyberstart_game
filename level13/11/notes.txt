@@ -1,0 +1,33 @@
+Spam For Dinner
+
+Agent, we're trying to distract the gang whilst we try and gain access to their primary server and we think we've found a target for you.
+
+We want to spam the booking form for their restaurants, if we can create enough incorrect bookings that'll make a real mess to keep them distracted. The problem is the form is protected by a captcha.
+
+Tip: Find a way to bypass the captcha
+
+Tip: Prove you can bypass it by tricking the form into using the same captcha every time you submit the form.
+
+Tip: After submitting the form with the same captcha several times in a row, you will be given the flag.
+
+
+
+############
+SOLUTION
+#############
+
+Finally my web skills coming in useful. After we inspect in requests, we can see it sends the seedID along with the captcha in order to validate it.
+
+Additionally, if we peek at the source we can see that:
+
+<a href="#" onclick="var t=document.getElementById(&quot;captcha&quot;); t.src=t.src+&quot;&amp;&quot;+Math.random();">
+        <img id="captcha" src="/challenge-files/hq/1311/PureCaptcha/purecaptcha_img.php?t=login_form&amp;seedID=12:15:14:4" height="22">
+      </a>
+
+The captcha image is pulled from their server using the seedID. Therefore, the seedID and captcha match up.
+
+So all we have to do it supply the exact same seedID and captcha each time we submit the form.
+
+A simple curl and changing the submitted name works great.
+
+

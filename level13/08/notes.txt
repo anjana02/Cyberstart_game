@@ -1,0 +1,4 @@
+Ok, this is annoying. Our undercover agent has just sent us a file he managed to take from the gangs primary server, so we think it's important, but when we run it nothing happens. We think it might be loading something into memory, any ideas?
+Tip: Run the file and get the flag!
+
+

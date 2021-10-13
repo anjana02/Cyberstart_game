@@ -1,0 +1,28 @@
+Feb 24 05:38:40 mailserv postfix/smtpd[26118]: 0E6C9A004CE: client=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx], sasl_method=PLAIN, sasl_username=bob
+Feb 24 05:38:40 mailserv postfix/cleanup[17455]: 0E6C9A004CE: message-id=<xxx@xxx.com>
+Feb 24 05:38:40 mailserv postfix/qmgr[5252]: 0E6C9A004CE: from=<bob@xxx.com>, size=6448, nrcpt=3 (queue active)
+Feb 24 05:38:40 mailserv postfix/smtp[26911]: 0E6C9A004CE: to=<content@xxx.com>, relay=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=0.9, delays=0.44/0.01/0.16/0.3, dsn=2.0.0, status=sent (250 2.0.0 OK 1456292320 l4si1610122wja.105 - gsmtp)
+Feb 24 05:38:41 mailserv postfix/pipe[26912]: 0E6C9A004CE: to=<barbara@xxx.com>, relay=xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=1.3, delays=0.44/0/0/0.81, dsn=2.0.0, status=sent
+Feb 24 05:38:45 mailserv postfix/pipe[17592]: 0E6C9A004CE: to=<all@xxx.com>, relay=xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=5, delays=0.44/0/0/4.6, dsn=2.0.0, status=sent
+Feb 24 05:38:45 mailserv postfix/smtpd[26118]: 01E30A005AE: client=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx], sasl_method=PLAIN, sasl_username=roger_markham
+Feb 24 05:38:45 mailserv postfix/cleanup[17455]: 01E30A005AE: message-id=<xxx@xxx.com>
+Feb 24 05:38:45 mailserv postfix/qmgr[5252]: 0E6C9A004CE: removed
+Feb 24 05:41:11 mailserv postfix/smtpd[26118]: D591BA0057D: client=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx], sasl_method=PLAIN, sasl_username=james_joseph
+Feb 24 05:41:11 mailserv postfix/cleanup[17455]: D591BA0057D: message-id=<xxx@xxx.com>
+Feb 24 05:41:11 mailserv postfix/smtpd[26118]: E9578A0057C: client=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx], sasl_method=PLAIN, sasl_username=mark
+Feb 24 05:41:11 mailserv postfix/cleanup[17455]: E9578A0057C: message-id=<xxx@xxx.com>
+Feb 24 05:41:11 mailserv postfix/qmgr[5252]: E9578A0057C: from=<mark@xxx.com>, size=6448, nrcpt=3 (queue active)
+Feb 24 05:41:11 mailserv postfix/smtp[26911]: E9578A0057C: to=<sarah@xxx.com>, relay=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=0.9, delays=0.44/0.01/0.16/0.3, dsn=2.0.0, status=sent (250 2.0.0 OK 1456292320 l4si1610122wja.105 - gsmtp)
+Feb 24 05:43:09 mailserv postfix/smtpd[26118]: EE2C8A0059A: client=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx], sasl_method=PLAIN, sasl_username=tony_andrews
+Feb 24 05:43:09 mailserv postfix/cleanup[17455]: EE2C8A0059A: message-id=<xxx@xxx.com>
+Feb 24 05:43:09 mailserv postfix/qmgr[5252]: 01E30A005AE: from=<roger_markham@xxx.com>, size=6448, nrcpt=3 (queue active)
+Feb 24 05:43:09 mailserv postfix/smtp[26911]: 01E30A005AE: to=<tim@xxx.com>, relay=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=0.9, delays=0.44/0.01/0.16/0.3, dsn=2.0.0, status=sent (250 2.0.0 OK 1456292320 l4si1610122wja.105 - gsmtp)
+Feb 24 05:43:09 mailserv postfix/qmgr[5252]: 01E30A005AE: removed
+Feb 24 05:43:09 mailserv postfix/qmgr[5252]: EE2C8A0059A: from=<tony_andrews@xxx.com>, size=6448, nrcpt=3 (queue active)
+Feb 24 05:43:09 mailserv postfix/smtp[26911]: EE2C8A0059A: to=<louise@xxx.com>, relay=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=0.9, delays=0.44/0.01/0.16/0.3, dsn=2.0.0, status=sent (250 2.0.0 OK 1456292320 l4si1610122wja.105 - gsmtp)
+Feb 24 05:43:09 mailserv postfix/qmgr[5252]: EE2C8A0059A: removed
+Feb 24 05:45:23 mailserv postfix/qmgr[5252]: E9578A0057C: removed
+Feb 24 05:45:23 mailserv postfix/qmgr[5252]: D591BA0057D: from=<ceo@xxx.com>, size=6448, nrcpt=3 (queue active)
+Feb 24 05:45:23 mailserv postfix/smtp[26911]: D591BA0057D: to=<winslow@xxx.com>, relay=xxx.xxx.xxx.com[xxx.xxx.xxx.xxx]:25, delay=0.9, delays=0.44/0.01/0.16/0.3, dsn=2.0.0, status=sent (250 2.0.0 OK 1456292320 l4si1610122wja.105 - gsmtp)
+Feb 24 05:45:23 mailserv postfix/qmgr[5252]: D591BA0057D: removed
+

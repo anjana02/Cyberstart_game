@@ -1,0 +1,4 @@
+Quick task for you, we've obtained details of another TCP server the gang are using (details are services.cyberprotection.agency on port 13777) - we just need you to connect to it. Should be easy, right?
+
+Tip: Connect to the server to get the flag.
+

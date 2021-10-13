@@ -1,0 +1,15 @@
+hex works!!!! (for some reason)
+
+
+is that important?
+
+The ;gt encoding
+
+
+i literally tried the payload in hex but it didnt work!!
+
+ok i guess it works now
+
+3C7363726970743E616C6572742827536561726368207468697321212127293C2F7363726970743E
+
+

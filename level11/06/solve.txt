@@ -1,0 +1,3 @@
+cat possible_pass.txt | xargs -I {} ./strings3 {}
+
+used strings to get list of passwords

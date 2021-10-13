@@ -1,0 +1,12 @@
+echo "Pzmxizm bw jm kwvncaml!" | caesar == Prepare to be confused!
+ascii codes == AES
+solve problem == 256
+from hex == CBC
+rot13 == key
+key=7778687865757978667964736961796600000000000000000000000000000000
+reverse vi == IV
+vi value from HEX -> 16 bytes ascii
+
+string is base64 
+Jh3pynwIdN+N70/wTHZrCRPX1bLjQ4ganC677iQ2tCkL0PnWHQX3uuWM7Ti09tyv
+

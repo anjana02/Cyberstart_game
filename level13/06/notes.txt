@@ -1,0 +1,4 @@
+Breakthrough - we have gained access to the gangs primary server! We found out because we recently took down a hacker from a rival gang that has previously managed to gain access to the system.
+
+We think he left an exploit on the server. SSH in and see if you can use it to exploit the server.
+

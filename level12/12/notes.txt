@@ -1,0 +1,6 @@
+ See if you can match up the ESMTPA ID from the messages to the log file and get the login details of the gang member. We can then stop him sending the email.
+
+Tip: The flag is the username of the gang member sending the spam.
+
+grep D591BA0057D log.txt
+D591BA0057D

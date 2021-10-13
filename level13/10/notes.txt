@@ -1,0 +1,4 @@
+
+https://tuttlem.github.io/2017/10/28/executing-shellcode-in-c.html
+
+gcc -fno-stack-protector -z execstack test_load_shell.c

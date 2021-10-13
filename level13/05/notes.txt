@@ -1,0 +1,10 @@
+Agent, we've intercepted a file sent between two gang members and it's confused our agents. When you execute the program it will give you a memory address for a function. See if you can exploit the binary to run the function.
+
+Tip: Run the function to get the flag.
+
+
+~/ctf/cyberstart/level13/05 [master|…1] $ ./program
+Overflow the buffer to execute the function at memory address: 0x80484b1
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Read 67 bytes. Buffer is ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+�<80484b1

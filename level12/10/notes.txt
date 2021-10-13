@@ -1,0 +1,1 @@
+used curl for minimal overhead, curl -s and cut -b N-n FTW

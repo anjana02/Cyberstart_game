@@ -1,0 +1,3 @@
+Brute forced with that python script
+
+sessID=78 worked
